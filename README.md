@@ -2,7 +2,7 @@
 
 **Uma plataforma moderna de Engenharia de Dados e Inteligência Artificial para análise do universo Pokémon.**
 
-Este projeto demonstra uma arquitetura escalável e robusta ("Senior Level"), integrando pipelines de dados (ETL), orquestração, APIs RESTful com **Clean Architecture** e Agentes de IA Generativa com capacidades híbridas (Online/Offline).
+Este projeto demonstra uma arquitetura escalável e robusta, integrando pipelines de dados (ETL), orquestração, APIs RESTful com **Clean Architecture** e Agentes de IA Generativa com capacidades híbridas (Online/Offline).
 
 ---
 
