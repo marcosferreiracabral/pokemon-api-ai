@@ -66,7 +66,7 @@ project-root/
 2.  **Ambiente de Desenvolvimento**:
     Execute o script de setup (Linux/WSL/GitBash) para criar venv e instalar dependências:
     ```bash
-    ./scripts/setup_dev_env.sh
+    ./scripts/env.sh
     ```
 
 ### Modos de Execução
