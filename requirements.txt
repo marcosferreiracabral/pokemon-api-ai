@@ -1,0 +1,25 @@
+# Requisitos do projeto:
+fastapi
+httpx
+openai
+opentelemetry-api
+opentelemetry-instrumentation-fastapi
+opentelemetry-exporter-otlp
+opentelemetry-instrumentation-requests
+opentelemetry-sdk
+pandas
+pandera
+plotly
+prometheus-fastapi-instrumentator
+psycopg2-binary
+pybreaker
+pydantic
+pytest
+pytest-mock
+websockets
+python-dotenv
+redis
+requests
+sqlalchemy
+streamlit
+uvicorn

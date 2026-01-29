@@ -1,0 +1,7 @@
+# Requisitos do projeto:
+openai
+requests
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-otlp
+opentelemetry-instrumentation-requests
