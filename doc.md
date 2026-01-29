@@ -117,7 +117,7 @@ project-root/
 ### 4.1. Configuração Inicial e Infraestrutura
 ```bash
 # 1. Configurar ambiente de desenvolvimento (Linux/WSL/GitBash)
-./scripts/setup_dev_env.sh
+./env.sh
 
 # 2. Subir infraestrutura Docker
 docker-compose up --build -d
