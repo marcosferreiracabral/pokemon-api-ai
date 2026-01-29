@@ -6,7 +6,7 @@
 ## 1. VISÃO EXECUTIVA
 Esta Prova de Conceito (PoC) demonstra uma arquitetura de dados moderna e escalável, integrando engenharia de dados (ETL), orquestração de workflows e Inteligência Artificial Generativa. O sistema ingere dados da PokéAPI, normaliza-os em um Data Warehouse relacional e democratiza o acesso através de uma API RESTful e de um Assistente Virtual conversacional.
 
-O diferencial deste projeto é a adesão a padrões "Senior Level" de engenharia, incluindo:
+O diferencial deste projeto é a adesão a padrões de engenharia, incluindo:
 *   **Clean Architecture**: Separação clara de responsabilidades na API (Controller, Service, Repository).
 *   **Hibridismo de Dados**: Consumo flexível via API (Online) ou Cache Local JSON (Offline).
 *   **Orquestração Robusta**: Apache Airflow para gerenciamento de dependências.
