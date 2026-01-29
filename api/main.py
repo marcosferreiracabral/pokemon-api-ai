@@ -2,13 +2,11 @@ from fastapi import FastAPI, HTTPException, Query, Depends, APIRouter, Request
 from sqlalchemy.orm import Session
 from typing import List
 import uuid
-# Removido importação direta de json e text do sqlalchemy pois agora é responsabilidade do repositório/serviço
 
 from prometheus_fastapi_instrumentator import Instrumentator
 from api.database import get_db, redis_client
 from api.schemas import PokemonDetail, PokemonStats, PokemonRank
 
-# Importações da Nova Arquitetura Clean
 from api.repositories.pokemon import PokemonRepository
 from api.services.pokemon import PokemonService
 
