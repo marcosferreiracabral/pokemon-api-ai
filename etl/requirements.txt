@@ -1,0 +1,10 @@
+# Requisitos do projeto:
+requests
+pandas
+sqlalchemy
+psycopg2-binary
+pandera
+typer
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-otlp

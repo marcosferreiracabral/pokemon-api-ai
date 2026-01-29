@@ -1,0 +1,7 @@
+# Requisitos do projeto:
+requests
+pandas
+sqlalchemy
+psycopg2-binary
+pandera
+apache-airflow-providers-docker
