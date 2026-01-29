@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Script de Inicialização e Correção do Git
-# Autor: Tech Lead Sênior
-# Descrição: Corrige estrutura de repositório aninhado e inicializa git na raiz.
+# Autor: Tech Marcos Ferreira Cabral
+# Descrição: Inicializa a estrutura de repositório aninhado e inicializa git na raiz.
 
-REPO_URL="https://github.com/marcosferreiracabral/pokemon-api-ai.git"
+REPO_URL="Altere para seu link do GitHub"
 
 print_msg() {
     echo -e "\033[1;32m>> $1\033[0m"
