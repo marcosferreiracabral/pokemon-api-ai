@@ -25,25 +25,25 @@ O sistema adota uma abordagem de microsserviços modulares e "Clean Architecture
 
 ```bash
 project-root/
-├── .openai_config.txt        # [SEGURANÇA] Gestão de Segredos (Ignorado pelo Git)
-├── docker-compose.yml        # [INFRA] Stack completa (Airflow, Postgres, Redis, API)
-├── common/                   # [SHARED] Configuração e Logger unificados
-├── data/                     # [DATA] Camada de dados local
-│   └── raw/                  # Cache JSON (ex: pokemon_data.json)
-├── airflow/                  # [ORQUESTRAÇÃO] DAGs e Configs do Airflow
-├── agent/                    # [IA] Agente ReAct e Lógica do Chatbot
-├── api/                      # [BACKEND] API RESTful (Clean Architecture)
-│   ├── main.py               # Entrypoint / Controllers
-│   ├── services/             # Serviços de Domínio
-│   └── repositories/         # Acesso a Dados (SQLAlchemy)
-├── db/                       # [DATABASE] Schemas e Migrations SQL
-├── etl/                      # [ENGENHARIA] CLI de Extração e Carga
-├── tests/                    # [QA] Suite de Testes
-└── scripts/                  # [OPS] Runbooks e Automação
-    ├── setup_dev_env.sh      # Setup inicial do ambiente
-    ├── sync_repo.sh          # Sincronização segura Git
-    ├── fetch_pokemon_data.py # Carga do Cache Local
-    └── app.py                # Interface Streamlit
+├── .openai_config.txt         # [SEGURANÇA] Gestão de Segredos (Ignorado pelo Git)
+├── docker-compose.yml         # [INFRA] Stack completa (Airflow, Postgres, Redis, API)
+├── common/                    # [SHARED] Configuração e Logger unificados
+├── data/                      # [DATA] Camada de dados local
+│   └── raw/                   # Cache JSON (ex: pokemon_data.json)
+├── airflow/                   # [ORQUESTRAÇÃO] DAGs e Configs do Airflow
+├── agent/                     # [IA] Agente ReAct e Lógica do Chatbot
+├── api/                       # [BACKEND] API RESTful (Clean Architecture)
+│   ├── main.py                # Entrypoint / Controllers
+│   ├── services/              # Serviços de Domínio
+│   └── repositories/          # Acesso a Dados (SQLAlchemy)
+├── db/                        # [DATABASE] Schemas e Migrations SQL
+├── etl/                       # [ENGENHARIA] CLI de Extração e Carga
+├── tests/                     # [QA] Suite de Testes
+└── scripts/                   # [OPS] Runbooks e Automação
+    ├── env.sh                 # Setup inicial do ambiente
+    ├── sync_repo.sh           # Sincronização segura Git
+    ├── fetch_pokemon_data.py  # Carga do Cache Local
+    └── app.py                 # Interface Streamlit
 ```
 
 ---
